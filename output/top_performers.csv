@@ -1,0 +1,6 @@
+Student_ID,Name,Department,Python,Mathematics,Statistics,Computer_Science,English,Attendance,Total,Average,Result,Grade,Failed_Subjects,Attendance_Status,Rank
+S002,Priya,CSE,96,94,93,98,95,98,476.00,95.20,Pass,A+,,Sufficient,1
+S018,Sneha,CSE,96,94,93,98,95,96,476.00,95.20,Pass,A+,,Sufficient,1
+S010,Divya,CSE,94,95,96,92,97,97,474.00,94.80,Pass,A+,,Sufficient,3
+S001,Arun Kumar,AI&DS,92,88,90,94,86,95,450.00,90.00,Pass,A+,,Sufficient,4
+S014,Aishwarya,CSE,90,88,92,91,89,96,450.00,90.00,Pass,A+,,Sufficient,4

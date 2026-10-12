@@ -1,0 +1,29 @@
+test_all_failed_dataset_has_empty_top_list (test_project.CalculationTests.test_all_failed_dataset_has_empty_top_list) ... ok
+test_all_passed_dataset (test_project.CalculationTests.test_all_passed_dataset) ... ok
+test_attendance_boundary_and_independent_result (test_project.CalculationTests.test_attendance_boundary_and_independent_result) ... ok
+test_class_summary_and_tied_leaders (test_project.CalculationTests.test_class_summary_and_tied_leaders) ... ok
+test_department_groups (test_project.CalculationTests.test_department_groups) ... ok
+test_grade_boundaries (test_project.CalculationTests.test_grade_boundaries) ... ok
+test_grading_uses_unrounded_average (test_project.CalculationTests.test_grading_uses_unrounded_average) ... ok
+test_pass_mark_boundary (test_project.CalculationTests.test_pass_mark_boundary) ... ok
+test_ranking_and_ties (test_project.CalculationTests.test_ranking_and_ties) ... ok
+test_subject_failure_overrides_high_average (test_project.CalculationTests.test_subject_failure_overrides_high_average) ... ok
+test_subject_statistics (test_project.CalculationTests.test_subject_statistics) ... ok
+test_top_list_omits_failed_students_and_accepts_large_count (test_project.CalculationTests.test_top_list_omits_failed_students_and_accepts_large_count) ... ok
+test_totals_and_averages (test_project.CalculationTests.test_totals_and_averages) ... ok
+test_custom_input_all_failed_exports_empty_top_with_headers (test_project.CommandLineTests.test_custom_input_all_failed_exports_empty_top_with_headers) ... ok
+test_default_input_runs_from_another_folder_and_exports (test_project.CommandLineTests.test_default_input_runs_from_another_folder_and_exports) ... ok
+test_invalid_top_is_rejected (test_project.CommandLineTests.test_invalid_top_is_rejected) ... ok
+test_missing_input_fails_without_reports (test_project.CommandLineTests.test_missing_input_fails_without_reports) ... ok
+test_csv_preserves_identifiers_and_quoted_names (test_project.ValidationTests.test_csv_preserves_identifiers_and_quoted_names) ... ok
+test_duplicate_identifiers_after_trimming (test_project.ValidationTests.test_duplicate_identifiers_after_trimming) ... ok
+test_empty_identifying_fields (test_project.ValidationTests.test_empty_identifying_fields) ... ok
+test_header_only_and_empty_csv (test_project.ValidationTests.test_header_only_and_empty_csv) ... ok
+test_invalid_marks_and_attendance (test_project.ValidationTests.test_invalid_marks_and_attendance) ... ok
+test_missing_columns (test_project.ValidationTests.test_missing_columns) ... ok
+test_zero_and_one_hundred_are_valid_values (test_project.ValidationTests.test_zero_and_one_hundred_are_valid_values) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 2.546s
+
+OK

@@ -1,0 +1,125 @@
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+Python | NumPy | Pandas
+Dataset: synthetic demonstration records, not real student results.
+Pass rule: at least 40 in EVERY subject; each subject is out of 100.
+Attendance: below 75% is flagged independently of marks.
+Grades: A+ >=90; A >=80; B+ >=70; B >=60; C >=50; D >=40; any failed subject = F.
+Rank: overall average, with competition ties; top list includes passed students only.
+Averages are rounded only for display and export; grading uses full precision.
+
+1. DATASET INFORMATION
+Records: 25 | Required columns: 9
+Columns: Student_ID, Name, Department, Python, Mathematics, Statistics, Computer_Science, English, Attendance
+Data types: Student_ID=object, Name=object, Department=object, Python=int64, Mathematics=int64, Statistics=int64, Computer_Science=int64, English=int64, Attendance=int64
+
+2. INPUT DATA
+Student ID       Name Department  Python  Mathematics  Statistics  Computer Science  English  Attendance
+      S001 Arun Kumar      AI&DS      92           88          90                94       86          95
+      S002      Priya        CSE      96           94          93                98       95          98
+      S003      Kavin        ECE      76           72          74                78       80          88
+      S004   Nandhini      AI&DS      89           91          86                90       88          94
+      S005     Dinesh       MECH      58           62          55                60       65          79
+      S006      Meena        CSE      85           82          88                84       90          92
+      S007      Surya        ECE      39           65          61                62       70          72
+      S008    Revathi       MECH      73           70          75                68       78          85
+      S009     Harish      AI&DS      45           48          42                50       55          76
+      S010      Divya        CSE      94           95          96                92       97          97
+      S011     Balaji        ECE      38           36          40                44       48          68
+      S012  Keerthana       MECH      80           84          78                82       86          90
+      S013     Naveen      AI&DS      67           64          69                72       71          83
+      S014  Aishwarya        CSE      90           88          92                91       89          96
+      S015    Prakash        ECE      40           40          40                40       40          75
+      S016    Lakshmi       MECH      62           66          60                64       68          81
+      S017      Manoj      AI&DS      88           35          85                90       87          89
+      S018      Sneha        CSE      96           94          93                98       95          96
+      S019     Sanjay        ECE      55           58          52                60       62          74
+      S020      Pooja       MECH      70           73          76                74       79          87
+      S021    Vignesh      AI&DS      31           28          35                38       42          61
+      S022     Janani        CSE      83           86          81                88       84          93
+      S023      Gokul        ECE      64           59          62                67       66          80
+      S024     Anitha       MECH      78           80          77                75       82          91
+      S025      Rahul      AI&DS      35           72          68                70       76          70
+
+3. STUDENT RESULTS
+Student ID       Name Department  Total  Average Grade Result  Rank Attendance Status
+      S001 Arun Kumar      AI&DS 450.00    90.00    A+   Pass     4        Sufficient
+      S002      Priya        CSE 476.00    95.20    A+   Pass     1        Sufficient
+      S003      Kavin        ECE 380.00    76.00    B+   Pass    12        Sufficient
+      S004   Nandhini      AI&DS 444.00    88.80     A   Pass     6        Sufficient
+      S005     Dinesh       MECH 300.00    60.00     B   Pass    19        Sufficient
+      S006      Meena        CSE 429.00    85.80     A   Pass     7        Sufficient
+      S007      Surya        ECE 297.00    59.40     F   Fail    20               Low
+      S008    Revathi       MECH 364.00    72.80    B+   Pass    14        Sufficient
+      S009     Harish      AI&DS 240.00    48.00     D   Pass    22        Sufficient
+      S010      Divya        CSE 474.00    94.80    A+   Pass     3        Sufficient
+      S011     Balaji        ECE 206.00    41.20     F   Fail    23               Low
+      S012  Keerthana       MECH 410.00    82.00     A   Pass     9        Sufficient
+      S013     Naveen      AI&DS 343.00    68.60     B   Pass    15        Sufficient
+      S014  Aishwarya        CSE 450.00    90.00    A+   Pass     4        Sufficient
+      S015    Prakash        ECE 200.00    40.00     D   Pass    24        Sufficient
+      S016    Lakshmi       MECH 320.00    64.00     B   Pass    17        Sufficient
+      S017      Manoj      AI&DS 385.00    77.00     F   Fail    11        Sufficient
+      S018      Sneha        CSE 476.00    95.20    A+   Pass     1        Sufficient
+      S019     Sanjay        ECE 287.00    57.40     C   Pass    21               Low
+      S020      Pooja       MECH 372.00    74.40    B+   Pass    13        Sufficient
+      S021    Vignesh      AI&DS 174.00    34.80     F   Fail    25               Low
+      S022     Janani        CSE 422.00    84.40     A   Pass     8        Sufficient
+      S023      Gokul        ECE 318.00    63.60     B   Pass    18        Sufficient
+      S024     Anitha       MECH 392.00    78.40    B+   Pass    10        Sufficient
+      S025      Rahul      AI&DS 321.00    64.20     F   Fail    16               Low
+
+4. CLASS SUMMARY
+Total Students: 25
+Passed Students: 20
+Failed Students: 5
+Pass Percentage: 80.00
+Class Average: 71.44
+Highest Average: 95.20
+Highest Average Students: S002 - Priya; S018 - Sneha
+Lowest Average: 34.80
+Lowest Average Students: S021 - Vignesh
+Best Subject: English
+Best Subject Average: 75.16
+Weakest Subject: Python
+Weakest Subject Average: 68.96
+Average Attendance: 84.40
+Low Attendance Students: 5
+
+5. SUBJECT-WISE PERFORMANCE
+         Subject  Highest  Lowest  Average  Passed  Failed  Pass Percentage
+          Python    96.00   31.00    68.96      21       4            84.00
+     Mathematics    95.00   28.00    69.20      22       3            88.00
+      Statistics    96.00   35.00    70.72      24       1            96.00
+Computer_Science    98.00   38.00    73.16      24       1            96.00
+         English    97.00   40.00    75.16      25       0           100.00
+
+6. DEPARTMENT-WISE PERFORMANCE
+Department  Students  Average  Passed  Failed  Pass Percentage  Average Attendance
+     AI&DS         7    67.34       4       3            57.14               81.14
+       CSE         6    90.90       6       0           100.00               95.33
+       ECE         6    56.27       4       2            66.67               76.17
+      MECH         6    71.93       6       0           100.00               85.50
+
+7. TOP PASSED STUDENTS (CUTOFF TIES INCLUDED)
+ Rank Student ID       Name Department  Total  Average Grade
+    1       S002      Priya        CSE 476.00    95.20    A+
+    1       S018      Sneha        CSE 476.00    95.20    A+
+    3       S010      Divya        CSE 474.00    94.80    A+
+    4       S001 Arun Kumar      AI&DS 450.00    90.00    A+
+    4       S014  Aishwarya        CSE 450.00    90.00    A+
+
+8. FAILED STUDENTS
+Student ID    Name  Average                                   Failed Subjects
+      S007   Surya    59.40                                            Python
+      S011  Balaji    41.20                               Python, Mathematics
+      S017   Manoj    77.00                                       Mathematics
+      S021 Vignesh    34.80 Python, Mathematics, Statistics, Computer_Science
+      S025   Rahul    64.20                                            Python
+
+9. LOW ATTENDANCE
+Student ID    Name  Attendance Result
+      S007   Surya          72   Fail
+      S011  Balaji          68   Fail
+      S019  Sanjay          74   Pass
+      S021 Vignesh          61   Fail
+      S025   Rahul          70   Fail

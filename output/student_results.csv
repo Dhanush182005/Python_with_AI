@@ -1,0 +1,26 @@
+Student_ID,Name,Department,Python,Mathematics,Statistics,Computer_Science,English,Attendance,Total,Average,Result,Grade,Failed_Subjects,Attendance_Status,Rank
+S001,Arun Kumar,AI&DS,92,88,90,94,86,95,450.00,90.00,Pass,A+,,Sufficient,4
+S002,Priya,CSE,96,94,93,98,95,98,476.00,95.20,Pass,A+,,Sufficient,1
+S003,Kavin,ECE,76,72,74,78,80,88,380.00,76.00,Pass,B+,,Sufficient,12
+S004,Nandhini,AI&DS,89,91,86,90,88,94,444.00,88.80,Pass,A,,Sufficient,6
+S005,Dinesh,MECH,58,62,55,60,65,79,300.00,60.00,Pass,B,,Sufficient,19
+S006,Meena,CSE,85,82,88,84,90,92,429.00,85.80,Pass,A,,Sufficient,7
+S007,Surya,ECE,39,65,61,62,70,72,297.00,59.40,Fail,F,Python,Low,20
+S008,Revathi,MECH,73,70,75,68,78,85,364.00,72.80,Pass,B+,,Sufficient,14
+S009,Harish,AI&DS,45,48,42,50,55,76,240.00,48.00,Pass,D,,Sufficient,22
+S010,Divya,CSE,94,95,96,92,97,97,474.00,94.80,Pass,A+,,Sufficient,3
+S011,Balaji,ECE,38,36,40,44,48,68,206.00,41.20,Fail,F,"Python, Mathematics",Low,23
+S012,Keerthana,MECH,80,84,78,82,86,90,410.00,82.00,Pass,A,,Sufficient,9
+S013,Naveen,AI&DS,67,64,69,72,71,83,343.00,68.60,Pass,B,,Sufficient,15
+S014,Aishwarya,CSE,90,88,92,91,89,96,450.00,90.00,Pass,A+,,Sufficient,4
+S015,Prakash,ECE,40,40,40,40,40,75,200.00,40.00,Pass,D,,Sufficient,24
+S016,Lakshmi,MECH,62,66,60,64,68,81,320.00,64.00,Pass,B,,Sufficient,17
+S017,Manoj,AI&DS,88,35,85,90,87,89,385.00,77.00,Fail,F,Mathematics,Sufficient,11
+S018,Sneha,CSE,96,94,93,98,95,96,476.00,95.20,Pass,A+,,Sufficient,1
+S019,Sanjay,ECE,55,58,52,60,62,74,287.00,57.40,Pass,C,,Low,21
+S020,Pooja,MECH,70,73,76,74,79,87,372.00,74.40,Pass,B+,,Sufficient,13
+S021,Vignesh,AI&DS,31,28,35,38,42,61,174.00,34.80,Fail,F,"Python, Mathematics, Statistics, Computer_Science",Low,25
+S022,Janani,CSE,83,86,81,88,84,93,422.00,84.40,Pass,A,,Sufficient,8
+S023,Gokul,ECE,64,59,62,67,66,80,318.00,63.60,Pass,B,,Sufficient,18
+S024,Anitha,MECH,78,80,77,75,82,91,392.00,78.40,Pass,B+,,Sufficient,10
+S025,Rahul,AI&DS,35,72,68,70,76,70,321.00,64.20,Fail,F,Python,Low,16

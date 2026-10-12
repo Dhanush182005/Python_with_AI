@@ -1,0 +1,7 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+# Keep output/ tracked: its sample CSVs and report demonstrate the project.
